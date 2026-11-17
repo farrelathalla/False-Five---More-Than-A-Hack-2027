@@ -1,0 +1,13 @@
+# Full training pipeline (notebooks/false_five_possession.ipynb).
+# Reference run: Python 3.12, CUDA 12.8, one NVIDIA GPU.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.2
+numba==0.65.0
+lightgbm==4.6.0
+torch==2.11.0
+matplotlib==3.10.1
+gdown==5.2.0
+huggingface_hub==0.26.0
+tqdm==4.67.1
+jupyter==1.1.1

@@ -1,0 +1,3 @@
+# Byte-exact regeneration of submission/False_Five.csv from artifacts/ (CPU, seconds).
+numpy==2.2.6
+numba==0.65.0
