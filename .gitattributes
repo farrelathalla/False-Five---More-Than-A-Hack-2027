@@ -1,0 +1,7 @@
+# Keep LF everywhere so submission/False_Five.csv stays byte-identical on every OS.
+* text=auto eol=lf
+*.csv text eol=lf
+*.npy binary
+*.png binary
+*.pdf binary
+*.ipynb text eol=lf
