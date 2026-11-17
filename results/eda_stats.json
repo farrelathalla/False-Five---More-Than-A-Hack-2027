@@ -1,0 +1,16 @@
+{
+ "ball_present_graded": 0.593074274347369,
+ "ball_present_public": 0.882,
+ "n_ball_gaps": 150,
+ "gap_median_s": 10.72,
+ "missing_share_in_gaps_over_10s": 0.8524202156459323,
+ "public_possessions": 17,
+ "public_possession_rate_per_alive_min": 4.228154534903001,
+ "broadcast_lag_frames": {
+  "1": 4014,
+  "2": 26920
+ },
+ "broadcast_invalid_given_H": 0.028372900560498238,
+ "broadcast_invalid_given_A": 0.03958090767264366,
+ "broadcast_invalid_given_D": 0.7562968134880066
+}

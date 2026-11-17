@@ -1,0 +1,251 @@
+{
+ "oof": {
+  "dfl_spellF1": 0.7500953483038296,
+  "metrica_spellF1": 0.8137838816490802,
+  "pff_spellF1": 0.7045550052577128,
+  "spellF1": 0.7705545292149256,
+  "macroF1": 0.9225552175602746,
+  "dfl_rate_pred": 4.964454073356341,
+  "dfl_rate_gt": 5.048318131277063,
+  "metrica_rate_pred": 4.136283920989477,
+  "metrica_rate_gt": 4.2943325555692,
+  "pff_rate_pred": 3.3134941892265273,
+  "pff_rate_gt": 4.12854449495873,
+  "frame_acc": 0.9215390152114805,
+  "spellF1_std_over_halves": 0.059526397874778494
+ },
+ "public": {
+  "spellF1": 0.6875,
+  "spellF1_ci": [
+   0.5125,
+   0.8625
+  ],
+  "macroF1": 0.9267340306088325,
+  "per_iou": {
+   "0.3": 0.8125,
+   "0.4": 0.6875,
+   "0.5": 0.6875,
+   "0.6": 0.625,
+   "0.7": 0.625
+  },
+  "n_pred": 15,
+  "n_gt": 17,
+  "alive_dead_f1": 0.9787059787059788
+ },
+ "full_match": {
+  "possessions": 216,
+  "rate_per_live_min": 3.981322192184812,
+  "dead_share": 0.4877153666505096,
+  "stoppages": 109,
+  "mean_possession_s": 15.07037037037037,
+  "barcelona_share": 0.6344433521749816
+ },
+ "models": {
+  "gbm": {
+   "dfl_spellF1": 0.7087057268926228,
+   "metrica_spellF1": 0.760612552410127,
+   "pff_spellF1": 0.6326990258865535,
+   "spellF1": 0.7156574643998576,
+   "macroF1": 0.9013158797609879,
+   "dfl_rate_pred": 4.746387335705467,
+   "dfl_rate_gt": 5.048318131277063,
+   "metrica_rate_pred": 4.055893917493926,
+   "metrica_rate_gt": 4.2943325555692,
+   "pff_rate_pred": 3.44759974007625,
+   "pff_rate_gt": 4.12854449495873,
+   "frame_acc": 0.9002983789167908,
+   "bar_rate": 4.022076329269172,
+   "rhythm_penalty": 0.0005677408947282969,
+   "objective": 0.7150897235051292
+  },
+  "gru_A": {
+   "dfl_spellF1": 0.7495530728045896,
+   "metrica_spellF1": 0.7985215642629316,
+   "pff_spellF1": 0.6962142015576813,
+   "spellF1": 0.7607026007220334,
+   "macroF1": 0.9183672791182562,
+   "dfl_rate_pred": 4.853946516851488,
+   "dfl_rate_gt": 5.048318131277063,
+   "metrica_rate_pred": 4.059797799354744,
+   "metrica_rate_gt": 4.2943325555692,
+   "pff_rate_pred": 3.3432666342973625,
+   "pff_rate_gt": 4.12854449495873,
+   "frame_acc": 0.9176746456655602,
+   "bar_rate": 3.9704909193402123,
+   "rhythm_penalty": 0.001858593373758824,
+   "objective": 0.7588440073482746
+  },
+  "gru_B": {
+   "dfl_spellF1": 0.7185537038606311,
+   "metrica_spellF1": 0.7887133051986887,
+   "pff_spellF1": 0.6572435045165375,
+   "spellF1": 0.7383059546936364,
+   "macroF1": 0.9143053292672736,
+   "dfl_rate_pred": 5.130463722294772,
+   "dfl_rate_gt": 5.048318131277063,
+   "metrica_rate_pred": 4.349946994023384,
+   "metrica_rate_gt": 4.2943325555692,
+   "pff_rate_pred": 3.1916430384357986,
+   "pff_rate_gt": 4.12854449495873,
+   "frame_acc": 0.9109642718301247,
+   "bar_rate": 3.9596876657579534,
+   "rhythm_penalty": 0.0021310528183833043,
+   "objective": 0.736174901875253
+  },
+  "tcn_A": {
+   "dfl_spellF1": 0.7073390550539091,
+   "metrica_spellF1": 0.7548980109069113,
+   "pff_spellF1": 0.6868708869806424,
+   "spellF1": 0.7260014909620935,
+   "macroF1": 0.9146798957931402,
+   "dfl_rate_pred": 5.452420428909244,
+   "dfl_rate_gt": 5.048318131277063,
+   "metrica_rate_pred": 4.614345308748937,
+   "metrica_rate_gt": 4.2943325555692,
+   "pff_rate_pred": 3.7341533385322676,
+   "pff_rate_gt": 4.12854449495873,
+   "frame_acc": 0.9146221239029901,
+   "bar_rate": 4.219758398146616,
+   "rhythm_penalty": 0.0,
+   "objective": 0.7260014909620935
+  },
+  "tcn_B": {
+   "dfl_spellF1": 0.7046082581822314,
+   "metrica_spellF1": 0.766487255182362,
+   "pff_spellF1": 0.6688123927634471,
+   "spellF1": 0.7265987903276007,
+   "macroF1": 0.9124305533644876,
+   "dfl_rate_pred": 5.388610042804684,
+   "dfl_rate_gt": 5.048318131277063,
+   "metrica_rate_pred": 4.542509842104658,
+   "metrica_rate_gt": 4.2943325555692,
+   "pff_rate_pred": 3.398208217485326,
+   "pff_rate_gt": 4.12854449495873,
+   "frame_acc": 0.911682646370773,
+   "bar_rate": 4.329552359732631,
+   "rhythm_penalty": 0.0,
+   "objective": 0.7265987903276007
+  }
+ },
+ "ensemble_weights": {
+  "gbm": 0.0,
+  "gru_A": 0.2,
+  "gru_B": 0.2,
+  "tcn_A": 0.3,
+  "tcn_B": 0.3
+ },
+ "decoder": {
+  "c_team": 12.0,
+  "c_dead": 6.0,
+  "min_dead": 50,
+  "replay_weights": [
+   1.5,
+   -0.7
+  ],
+  "gap_term": true,
+  "gap_shrink": 0.5,
+  "gap_logratios": [
+   -0.9899441867882415,
+   1.7010492148745024,
+   2.162360717267614,
+   2.45471747179921,
+   1.126390660817798,
+   2.220409844338602,
+   4.333698009802896
+  ]
+ },
+ "rhythm": {
+  "reference": 4.449473870591937,
+  "band": [
+   4.04497624599267,
+   4.894421257651132
+  ],
+  "bar_final": 3.981322192184812,
+  "bar_model_only": 4.240375917177606,
+  "oof": {
+   "dfl": [
+    4.964454073356341,
+    5.048318131277063
+   ],
+   "metrica": [
+    4.136283920989477,
+    4.2943325555692
+   ],
+   "pff": [
+    3.3134941892265273,
+    4.12854449495873
+   ]
+  },
+  "mixtures": {
+   "A": {
+    "dfl": 0.35,
+    "metrica": 0.2,
+    "pff": 0.45
+   },
+   "B": {
+    "dfl": 0.45,
+    "metrica": 0.4,
+    "pff": 0.15
+   }
+  },
+  "members": [
+   [
+    "gru",
+    "A",
+    2
+   ],
+   [
+    "gru",
+    "B",
+    1
+   ],
+   [
+    "tcn",
+    "A",
+    1
+   ],
+   [
+    "tcn",
+    "B",
+    1
+   ]
+  ]
+ },
+ "data": {
+  "halves": {
+   "dfl": 14,
+   "metrica": 6,
+   "pff": 128
+  },
+  "validation_halves": 52,
+  "training_rows": 2518487
+ },
+ "eda": {
+  "ball_present_graded": 0.593074274347369,
+  "ball_present_public": 0.882,
+  "n_ball_gaps": 150,
+  "gap_median_s": 10.72,
+  "missing_share_in_gaps_over_10s": 0.8524202156459323,
+  "public_possessions": 17,
+  "public_possession_rate_per_alive_min": 4.228154534903001,
+  "broadcast_lag_frames": {
+   "1": 4014,
+   "2": 26920
+  },
+  "broadcast_invalid_given_H": 0.028372900560498238,
+  "broadcast_invalid_given_A": 0.03958090767264366,
+  "broadcast_invalid_given_D": 0.7562968134880066,
+  "rhythm_reference": {
+   "per_source": {
+    "dfl": 5.048318131277062,
+    "metrica": 4.2943325555692,
+    "pff": 4.160912239952285
+   },
+   "target": 4.449473870591937,
+   "band": [
+    4.04497624599267,
+    4.894421257651132
+   ]
+  }
+ }
+}
